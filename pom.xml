@@ -72,6 +72,7 @@
         <configuration>
           <images>
             <image>
+              <!-- Add your dockerhub user name here -->
               <name>rohankanojia/helloworld-java:${project.version}</name>
               <alias>hello-world</alias>
               <build>
